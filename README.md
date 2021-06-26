@@ -48,3 +48,7 @@ iportante lembrar que o RobotFramework é tabular
 
 => executar o programa do robot `robot test.robot`
 <img src="assets/images/Screenshot_2.png">
+
+=> então o robot gera alguns arquivos no diretório que são os relatórios do teste executado
+<img src="assets/images/Screenshot_3.png">
+<img src="assets/images/Screenshot_5.png">
