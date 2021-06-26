@@ -1,5 +1,5 @@
 def welcome(name):
-    return "Olá " + name + ", Bem vindo ao curso basico de Robot Framework"
+    return "Olá " + name + ", Bem vindo ao curso basico de Robot Framework!"
 
-result=welcome("Maike")
+result = welcome("Maike")
 print (result)
