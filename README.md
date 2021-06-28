@@ -10,9 +10,9 @@
 ### Primeira etapa
 Efetua as instalações do Python e Robot Framework
 
-<b>Python</b> => efetuar o download no site do python do útlimo release => Executar o instalador => com o instalador aberto, seleciona a opção Instalação customizada e marcar a opção para adicionar as variáveis do Windows
-<img src="assets/images/Screenshot_4.png">
-=> na próxima tela marcar a opção Install for All Users
+<b>Python</b> => efetuar o download no site do python do útlimo release => Executar o instalador => com o instalador aberto, seleciona a opção Instalação customizada e marcar a opção para adicionar as variáveis do Windows<br>
+<img src="assets/images/Screenshot_4.png"><br>
+=> na próxima tela marcar a opção Install for All Users <br>
 <img src="assets/images/Screenshot_1.png">
 
 <b>vscode</b> => instalar o vscode e a extensoes do python e robotframework 
@@ -46,14 +46,15 @@ iportante lembrar que o RobotFramework é tabular
 
     Welcome     Maike `
 
-=> executar o programa do robot `robot test.robot`
+=> executar o programa do robot `robot test.robot`]
+<br>
 <img src="assets/images/Screenshot_2.png">
 
-=> então o robot gera alguns arquivos no diretório que são os relatórios do teste executado
-<img src="assets/images/Screenshot_3.png">
-<img src="assets/images/Screenshot_5.png">
+=> então o robot gera alguns arquivos no diretório que são os relatórios do teste executado<br>
+<img src="assets/images/Screenshot_3.png"><br>
+<img src="assets/images/Screenshot_5.png"><br>
 
-*** Pasta do Log ***
+###Pasta do Log
 - por padrão o log do teste é gerado e armazenado no mesmo local, que o arquivo .robot
 - para deixar mais organizado no terminal execute o comando `robot -d ./log title.robot`
 - onde será criada a pasta log e os arquivos relacionados ao resultado do teste serão armazenados nessa pasta
