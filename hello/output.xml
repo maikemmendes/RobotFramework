@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210626 09:46:25.450" rpa="false" schemaversion="2">
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210626 11:46:42.252" rpa="false" schemaversion="2">
 <suite id="s1" name="Test" source="C:\qaninja\RobotFramework\hello\test.robot">
 <test id="s1-t1" name="Deve Retornar mensagem de boas vindas">
 <kw name="Welcome" library="app">
-<var>${result}</var>
+<var>${resultt}</var>
 <arg>Maike</arg>
-<msg timestamp="20210626 09:46:25.475" level="INFO">${result} = Olá Maike, Bem vindo ao curso basico de Robot Framework!</msg>
-<status status="PASS" starttime="20210626 09:46:25.475" endtime="20210626 09:46:25.475"/>
+<msg timestamp="20210626 11:46:42.275" level="INFO">${resultt} = Olá Maike, Bem vindo ao curso basico de Robot Framework!</msg>
+<status status="PASS" starttime="20210626 11:46:42.275" endtime="20210626 11:46:42.275"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${result}</arg>
+<arg>${resultt}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210626 09:46:25.477" endtime="20210626 09:46:25.477"/>
+<status status="PASS" starttime="20210626 11:46:42.275" endtime="20210626 11:46:42.276"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
-<arg>${result}</arg>
+<arg>${resultt}</arg>
 <arg>Olá Maike, Bem vindo ao curso basico de Robot Framework!</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20210626 09:46:25.477" endtime="20210626 09:46:25.477"/>
+<status status="PASS" starttime="20210626 11:46:42.277" endtime="20210626 11:46:42.277"/>
 </kw>
-<status status="PASS" starttime="20210626 09:46:25.475" endtime="20210626 09:46:25.478"/>
+<status status="PASS" starttime="20210626 11:46:42.274" endtime="20210626 11:46:42.278"/>
 </test>
-<status status="PASS" starttime="20210626 09:46:25.452" endtime="20210626 09:46:25.480"/>
+<status status="PASS" starttime="20210626 11:46:42.254" endtime="20210626 11:46:42.279"/>
 </suite>
 <statistics>
 <total>

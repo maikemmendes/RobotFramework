@@ -1,4 +1,4 @@
-# Robot FrameWork/ Selenium
+# RobotFrameWork/ Selenium
 
 ## Tecnologias utilizadas
 - Python (https://www.python.org/downloads/)
@@ -10,7 +10,7 @@
 ### Primeira etapa
 Efetua as instalações do Python e Robot Framework
 
-<b>Python</b> => efetuar o download no site do python do útlimo release => Executar o instaldos => com o instalador aberto, seleciona a opção Instalação customizada e marcar a opção para adicionar as variáveis do Windows
+<b>Python</b> => efetuar o download no site do python do útlimo release => Executar o instalador => com o instalador aberto, seleciona a opção Instalação customizada e marcar a opção para adicionar as variáveis do Windows
 <img src="assets/images/Screenshot_4.png">
 => na próxima tela marcar a opção Install for All Users
 <img src="assets/images/Screenshot_1.png">
@@ -18,7 +18,7 @@ Efetua as instalações do Python e Robot Framework
 <b>vscode</b> => instalar o vscode e a extensoes do python e robotframework 
 
 <b>RobotFramework</b> 
-=> No terminal do VSCODE criar o diretorio do trabalho <i>cd mkdir RobotFrameWork, cd RobotFramework</i> =>
+=> No terminal do VSCODE criar o diretorio do trabalho <i>cd mkdir RobotFrameWork, cd RobotFramework</i>
 => abrir a pasta criada no VSCODE 
 => ainda no terminal <i>pip install robotframework</i>
 
@@ -52,3 +52,9 @@ iportante lembrar que o RobotFramework é tabular
 => então o robot gera alguns arquivos no diretório que são os relatórios do teste executado
 <img src="assets/images/Screenshot_3.png">
 <img src="assets/images/Screenshot_5.png">
+
+*** Pasta do Log ***
+- por padrão o log do teste é gerado e armazenado no mesmo local, que o arquivo .robot
+- para deixar mais organizado no terminal execute o comando `robot -d ./log title.robot`
+- onde será criada a pasta log e os arquivos relacionados ao resultado do teste serão armazenados nessa pasta
+<img src="assets/images/Screenshot_6.png">
