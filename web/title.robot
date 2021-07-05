@@ -1,5 +1,5 @@
 *** Settings ***
-Library     SeleniumLibrary
+Resource        base.robot
 
 *** Test Cases ***
 Should See Page Title
