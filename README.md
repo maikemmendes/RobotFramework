@@ -8,7 +8,7 @@
   
   
 ### Primeira etapa
-Efetua as instalações do Python e Robot Framework
+Efetuar as instalações do Python e Robot Framework
 
 <b>Python</b> => efetuar o download no site do python do útlimo release => Executar o instalador => com o instalador aberto, seleciona a opção Instalação customizada e marcar a opção para adicionar as variáveis do Windows<br>
 <img src="assets/images/Screenshot_4.png"><br>
